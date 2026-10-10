@@ -1,0 +1,947 @@
+%PDF-1.3
+%ºß¬à
+3 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 4 0 R
+>>
+endobj
+4 0 obj
+<<
+/Length 3222
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F2 24 Tf
+27.5999999999999979 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(Feedback System Documentation) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 728.5041732283464171 Td
+(1. Project Overview) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 691.6537795275589815 Td
+(The **Feedback System** is a comprehensive web application designed for educational) Tj
+T* (institutions to collect, manage, and analyze student feedback. It facilitates a streamlined) Tj
+T* (process for students to provide feedback on their courses and instructors, while offering) Tj
+T* (robust reporting tools for Heads of Departments \(HODs\) and Administrators.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 603.7797637795274568 Td
+(Key Features) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 575.4333070866141497 Td
+(• **Role-Based Access Control**: Secure login for Students, HODs, and) Tj
+T* (Administrators.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 535.748267716535338 Td
+(• **Student Feedback Portal**: Intuitive interface for students to submit feedback for their) Tj
+T* (respective subjects.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 496.0632283464566399 Td
+(• **Real-time Analytics**: HOD Dashboard providing immediate insights into feedback) Tj
+T* (trends.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 456.378188976377885 Td
+(• **Comprehensive Reporting**: Generation of downloadable reports in **PDF**,) Tj
+T* (**Excel**, and **Word** formats.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 416.69314960629913 Td
+(• **Feedback Restriction**: Mechanism to prevent duplicate submissions and manage) Tj
+T* (feedback windows.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 377.0081102362204319 Td
+(• **Responsive Design**: Optimized for desktops, tablets, and mobile devices.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 340.1577165354329964 Td
+(---) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 303.3073228346455608 Td
+(2. System Architecture) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 252.2837007874014716 Td
+(Technology Stack) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 223.9372440944881646 Td
+(• **Frontend**: React.js \(Vite\), Tailwind CSS \(or custom CSS\), Framer Motion for) Tj
+T* (animations.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 184.2522047244093528 Td
+(• **Backend**: Node.js, Express.js.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 161.5750393700786844 Td
+(• **Database**: MongoDB \(Mongoose ODM\).) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 138.8978740157479024 Td
+(• **Authentication**: JWT \(JSON Web Tokens\) with bcrypt for password hashing.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 116.220708661417234 Td
+(• **Reporting**: `jspdf` \(PDF\), `xlsx` \(Excel\), `docx` \(Word\).) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 79.3703149606297984 Td
+(Data Flow) Tj
+ET
+endstream
+endobj
+5 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 6 0 R
+>>
+endobj
+6 0 obj
+<<
+/Length 3839
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(1.  **User Authentication**: Users log in via the Login Page. Credentials are verified) Tj
+T* (against the MongoDB database.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 745.5120472440944468 Td
+(2.  **Role Routing**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 722.8348818897637784 Td
+(    -   **Students** are routed to the Feedback Form.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 700.15771653543311 Td
+(    -   **HODs** are routed to the HOD Dashboard.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 677.480551181102328 Td
+(    -   **Admins** are routed to the Admin Dashboard.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 654.8033858267716596 Td
+(3.  **Data Submission**: Student feedback is sent to the backend API and stored in the) Tj
+T* (`Feedbacks` collection.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 615.1183464566928478 Td
+(4.  **Data Retrieval**: Dashboards fetch aggregated data to display charts and tables.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 578.2679527559055259 Td
+(---) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 541.4175590551180903 Td
+(3. User Modules) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 490.3939370078739444 Td
+(3.1 Student Module) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 462.0474803149605805 Td
+(• **Login**: Access via Roll Number and Password.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 439.3703149606298552 Td
+(• **Feedback Form**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 416.69314960629913 Td
+(    -   Displays list of subjects/faculty for the student's academic year and section.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 394.0159842519684616 Td
+(    -   Questionnaire with rating capability \(1-5 scale\) and text comments.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 371.3388188976377364 Td
+(    -   Validation to ensure all questions are answered.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 348.6616535433070112 Td
+(• **Submission**: Single submission policy enforced per subject/semester.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 311.8112598425195756 Td
+(3.2 HOD Module) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 283.4648031496062686 Td
+(• **Login**: Access via Email and Password.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 260.7876377952754865 Td
+(• **Dashboard**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 238.1104724409448181 Td
+(    -   **Overview**: Total submissions, pending feedbacks.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 215.4333070866141497 Td
+(    -   **Class-wise Analytics**: Breakdown of feedback by section/year.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 192.7561417322833677 Td
+(    -   **Faculty Performance**: Aggregated scores for instructors.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 170.0789763779526993 Td
+(• **Reports**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 147.4018110236219172 Td
+(    -   Generate detailed reports for specific classes or subjects.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 124.7246456692912489 Td
+(    -   Export options: PDF \(with charts/tables\), Excel \(raw data\), Word \(formatted) Tj
+T* (document\).) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 70.8663779527557836 Td
+(3.3 Admin Module) Tj
+ET
+endstream
+endobj
+7 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 8 0 R
+>>
+endobj
+8 0 obj
+<<
+/Length 3277
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 785.1970866141732586 Td
+(• **Login**: Secure admin access.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 762.5199212598424765 Td
+(• **User Management**: Add/Edit/Delete Student and Faculty records.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 739.8427559055118081 Td
+(• **Subject Management**: Map subjects to faculty and classes.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 717.1655905511811397 Td
+(• **System Configuration**: reset feedback cycles, manage open/close dates.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 680.3151968503937042 Td
+(---) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 643.4648031496062686 Td
+(4. API Documentation \(Summary\)) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 592.4411811023621794 Td
+(Authentication) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 564.0947244094487587 Td
+(• `POST /api/auth/login`: Authenticates user and returns JWT.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 527.2443307086614368 Td
+(Feedback) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 498.8978740157479592 Td
+(• `POST /api/feedback/submit`: Submit new feedback.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 476.2207086614172908 Td
+(• `GET /api/feedback/status/:studentId`: Check if student has already submitted.) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 439.3703149606298552 Td
+(Analytics \(HOD/Admin\)) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 411.0238582677164914 Td
+(• `GET /api/analytics/dashboard`: Get high-level stats.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 388.3466929133857661 Td
+(• `GET /api/analytics/subject/:subjectId`: Get detailed feedback for a subject.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 365.6695275590550409 Td
+(• `GET /api/analytics/faculty/:facultyId`: Get performance report for a faculty member.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 328.8191338582676053 Td
+(---) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 291.9687401574802834 Td
+(5. Installation & Setup) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 240.9451181102361943 Td
+(Prerequisites) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 212.5986614173227736 Td
+(• Node.js \(v14+\)) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 189.9214960629919915 Td
+(• MongoDB \(Local or Atlas\)) Tj
+ET
+BT
+/F2 14 Tf
+16.0999999999999979 TL
+0 g
+56.6929133858267775 153.0711023622046696 Td
+(Steps) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 124.7246456692912489 Td
+(1.  **Clone Repository**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 102.0474803149605805 Td
+(    ```bash) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 79.3703149606297984 Td
+(    git clone <repository-url>) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 56.69314960629913 Td
+(    cd FeedbackSystem) Tj
+ET
+endstream
+endobj
+9 0 obj
+<</Type /Page
+/Parent 1 0 R
+/Resources 2 0 R
+/MediaBox [0 0 595.2799999999999727 841.8899999999999864]
+/Contents 10 0 R
+>>
+endobj
+10 0 obj
+<<
+/Length 2827
+>>
+stream
+0.5670000000000001 w
+0 G
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 785.1970866141732586 Td
+(    ```) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 762.5199212598424765 Td
+(2.  **Install Dependencies**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 739.8427559055118081 Td
+(    ```bash) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 717.1655905511811397 Td
+(    npm install) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 694.4884251968503577 Td
+(    ```) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 671.8112598425196893 Td
+(3.  **Environment Variables**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 649.1340944881889072 Td
+(    Create a `.env` file in the root directory:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 626.4569291338582389 Td
+(    ```env) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 603.7797637795274568 Td
+(    PORT=5000) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 581.1025984251967884 Td
+(    MONGO_URI=mongodb://localhost:27017/feedback_db) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 558.42543307086612 Td
+(    JWT_SECRET=your_secret_key) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 535.748267716535338 Td
+(    ```) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 513.0711023622046696 Td
+(4.  **Run Application**:) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 490.3939370078739444 Td
+(    -   Development: `npm run dev` \(Frontend\) & `npm run server` \(Backend\)) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 467.716771653543276 Td
+(    -   Production: `npm run build` & `npm start`) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 430.8663779527558404 Td
+(---) Tj
+ET
+BT
+/F2 18 Tf
+20.6999999999999993 TL
+0 g
+56.6929133858267775 394.0159842519684616 Td
+(6. Deployment) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 357.1655905511810261 Td
+(The application is configured for deployment on **Vercel**.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 334.4884251968503008 Td
+(• **Frontend**: Deployed via Vercel CLI or Git integration.) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+70.8661417322834666 311.8112598425195756 Td
+(• **Backend**: Can be deployed as Serverless Functions \(in `api/` directory\) or a) Tj
+T* (standalone server \(e.g., Render/Heroku\).) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 257.952992125984224 Td
+(---) Tj
+ET
+BT
+/F1 12 Tf
+13.7999999999999989 TL
+0 g
+56.6929133858267775 221.1025984251967884 Td
+(**Generated by Feedback System - Department of Data Science**) Tj
+ET
+endstream
+endobj
+1 0 obj
+<</Type /Pages
+/Kids [3 0 R 5 0 R 7 0 R 9 0 R ]
+/Count 4
+>>
+endobj
+11 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+12 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+13 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+14 0 obj
+<<
+/Type /Font
+/BaseFont /Helvetica-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+15 0 obj
+<<
+/Type /Font
+/BaseFont /Courier
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+16 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+17 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-Oblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+18 0 obj
+<<
+/Type /Font
+/BaseFont /Courier-BoldOblique
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+19 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Roman
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+20 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Bold
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+21 0 obj
+<<
+/Type /Font
+/BaseFont /Times-Italic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+22 0 obj
+<<
+/Type /Font
+/BaseFont /Times-BoldItalic
+/Subtype /Type1
+/Encoding /WinAnsiEncoding
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+23 0 obj
+<<
+/Type /Font
+/BaseFont /ZapfDingbats
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+24 0 obj
+<<
+/Type /Font
+/BaseFont /Symbol
+/Subtype /Type1
+/FirstChar 32
+/LastChar 255
+>>
+endobj
+2 0 obj
+<<
+/ProcSet [/PDF /Text /ImageB /ImageC /ImageI]
+/Font <<
+/F1 11 0 R
+/F2 12 0 R
+/F3 13 0 R
+/F4 14 0 R
+/F5 15 0 R
+/F6 16 0 R
+/F7 17 0 R
+/F8 18 0 R
+/F9 19 0 R
+/F10 20 0 R
+/F11 21 0 R
+/F12 22 0 R
+/F13 23 0 R
+/F14 24 0 R
+>>
+/XObject <<
+>>
+>>
+endobj
+25 0 obj
+<<
+/Producer (jsPDF 4.1.0)
+/CreationDate (D:20260211221211+05'30')
+>>
+endobj
+26 0 obj
+<<
+/Type /Catalog
+/Pages 1 0 R
+/OpenAction [3 0 R /FitH null]
+/PageLayout /OneColumn
+>>
+endobj
+xref
+0 27
+0000000000 65535 f 
+0000013938 00000 n 
+0000015778 00000 n 
+0000000015 00000 n 
+0000000152 00000 n 
+0000003426 00000 n 
+0000003563 00000 n 
+0000007454 00000 n 
+0000007591 00000 n 
+0000010920 00000 n 
+0000011058 00000 n 
+0000014013 00000 n 
+0000014139 00000 n 
+0000014270 00000 n 
+0000014404 00000 n 
+0000014542 00000 n 
+0000014666 00000 n 
+0000014795 00000 n 
+0000014927 00000 n 
+0000015063 00000 n 
+0000015191 00000 n 
+0000015318 00000 n 
+0000015447 00000 n 
+0000015580 00000 n 
+0000015682 00000 n 
+0000016031 00000 n 
+0000016117 00000 n 
+trailer
+<<
+/Size 27
+/Root 26 0 R
+/Info 25 0 R
+/ID [ <59B350FB42C40F5DEF2812AA7E70CAF4> <59B350FB42C40F5DEF2812AA7E70CAF4> ]
+>>
+startxref
+16221
+%%EOF

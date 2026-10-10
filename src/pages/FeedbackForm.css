@@ -1,0 +1,505 @@
+.feedback-container {
+    flex: 1;
+    /* Was min-height: 100vh */
+    position: relative;
+    background-color: var(--background);
+    color: var(--text);
+    padding: 2rem 1rem;
+    overflow-x: hidden;
+}
+
+/* --- Numeric Rating Scale --- */
+.rating-scale {
+    display: flex;
+    gap: 1.5rem;
+    /* Space between numbers */
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+}
+
+.rating-number {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    border: 1px solid var(--border);
+    background: rgba(15, 23, 42, 0.6);
+    color: var(--text-muted);
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.rating-number:hover {
+    transform: translateY(-2px);
+    border-color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+/* Color Coding for Ratings */
+.rating-number.active {
+    color: white;
+    border-color: transparent;
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* 1-2: Red/Orange for Low */
+.rating-number.rank-1.active,
+.rating-number.rank-2.active {
+    background: linear-gradient(135deg, #ef4444, #f87171);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.3);
+}
+
+/* 3: Yellow/Amber for Mid */
+.rating-number.rank-3.active {
+    background: linear-gradient(135deg, #f59e0b, #fbbf24);
+    box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
+}
+
+/* 4-5: Green/Emerald for High */
+.rating-number.rank-4.active,
+.rating-number.rank-5.active {
+    background: linear-gradient(135deg, #10b981, #34d399);
+    box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+}
+
+/* Hide Star styles if not used, or keep for compatibility */
+.star-rating {
+    display: none;
+}
+
+.feedback-mesh-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:
+        radial-gradient(circle at 0% 0%, rgba(99, 102, 241, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 100% 100%, rgba(244, 63, 94, 0.1) 0%, transparent 50%);
+    z-index: 0;
+    pointer-events: none;
+}
+
+
+/* --- Revamped Header (Professional One-Liner) --- */
+.feedback-header-revamped {
+    max-width: 1000px;
+    margin: 0 auto 2rem;
+}
+
+.student-info-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 1.5rem;
+    gap: 2rem;
+    border-radius: 12px;
+    background: rgba(15, 23, 42, 0.6);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-group {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    color: var(--text-muted);
+}
+
+.info-item strong {
+    color: white;
+    font-weight: 600;
+}
+
+.divider {
+    width: 1px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.logout-mini-btn {
+    background: transparent;
+    color: #ef4444;
+    border: 1px solid transparent;
+    padding: 0.4rem 0.8rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.logout-mini-btn:hover {
+    background: rgba(239, 68, 68, 0.1);
+    border-color: rgba(239, 68, 68, 0.2);
+}
+
+/* Progress Bar - Slimmer */
+.progress-bar-container {
+    margin-top: 0.75rem;
+    padding: 0 0.5rem;
+}
+
+.progress-text {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.progress-track {
+    width: 100%;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--primary-gradient);
+    /* Keep gradient */
+    border-radius: 2px;
+    transition: width 0.5s ease;
+}
+
+
+/* --- Professional List Layout for Subjects --- */
+
+.feedback-main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.subject-grid {
+    display: flex;
+    /* Switch to List Column */
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+}
+
+.subject-card {
+    display: grid;
+    grid-template-columns: auto 1fr auto auto;
+    /* Icon | Info | Status | Arrow/Action */
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    text-align: left;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    /* Subtle border */
+    background: rgba(30, 41, 59, 0.4);
+    /* Darker row */
+    border-radius: 12px;
+}
+
+.subject-card:hover {
+    background: rgba(255, 255, 255, 0.08);
+    transform: translateX(4px);
+    /* Hover nudge right */
+}
+
+/* Selected State */
+.subject-card.selected {
+    background: rgba(99, 102, 241, 0.1);
+    border-color: var(--primary);
+    box-shadow: none;
+    /* Cleaner look */
+}
+
+/* Highlight Next - Pulse Border */
+.subject-card.highlight-next {
+    border: 1px solid var(--primary);
+    background: rgba(99, 102, 241, 0.05);
+    box-shadow: 0 0 15px rgba(99, 102, 241, 0.1);
+    transform: scale(1.01);
+}
+
+.subject-icon {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+}
+
+.subject-card.selected .subject-icon,
+.subject-card.highlight-next .subject-icon {
+    background: var(--primary-gradient);
+    color: white;
+}
+
+.subject-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.subject-info h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    color: var(--text);
+}
+
+.subject-info p {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    margin: 0;
+}
+
+.type-badge {
+    font-size: 0.7rem;
+    font-weight: 700;
+    padding: 0.25rem 0.75rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 6px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+    justify-self: center;
+}
+
+.status-badge {
+    display: inline-block;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+    font-weight: 600;
+}
+
+.status-badge.success {
+    background: rgba(16, 185, 129, 0.2);
+    color: #10b981;
+}
+
+.status-badge.pending {
+    background: rgba(99, 102, 241, 0.2);
+    color: var(--primary);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.7;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.7;
+    }
+}
+
+.next-btn {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    border-radius: var(--radius-lg);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.next-btn.disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    filter: grayscale(1);
+}
+
+/* Step 2: Parameters */
+.subject-summary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.summary-info h2 {
+    font-size: 1.25rem;
+    margin: 0.5rem 0;
+}
+
+.summary-info p {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+.change-btn {
+    background: transparent;
+    border: 1px solid var(--glass-border);
+    color: var(--primary);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.parameters-list {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.parameter-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.5rem;
+    gap: 2rem;
+}
+
+.param-label {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.param-no {
+    background: rgba(99, 102, 241, 0.2);
+    color: var(--primary);
+    font-weight: 700;
+    font-size: 0.8rem;
+    width: 28px;
+    height: 28px;
+    min-width: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 6px;
+}
+
+.param-label p {
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.star-rating {
+    display: flex;
+    gap: 0.25rem;
+}
+
+.star {
+    background: transparent;
+    border: none;
+    color: #334155;
+    cursor: pointer;
+    transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275), color 0.2s ease;
+    padding: 0.25rem;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+.star.active {
+    color: #f59e0b;
+}
+
+.comment-section {
+    padding: 1.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.comment-section label {
+    display: block;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.comment-section textarea {
+    width: 100%;
+    min-height: 120px;
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid var(--glass-border);
+    border-radius: var(--radius-md);
+    color: white;
+    padding: 1rem;
+    resize: vertical;
+    font-family: inherit;
+}
+
+.submit-button {
+    width: 100%;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.75rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: var(--radius-lg);
+}
+
+/* Success Card */
+.success-card {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 3rem;
+    text-align: center;
+}
+
+.success-icon {
+    margin-bottom: 1.5rem;
+}
+
+.success-card h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.back-btn {
+    margin-top: 2rem;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .parameter-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+}

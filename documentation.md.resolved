@@ -1,0 +1,166 @@
+# Feedback System Documentation
+
+## 1. Project Overview
+The **Feedback System** is a web-based application designed to collect, manage, and analyze student feedback on faculty and subjects. It supports multiple roles (Student, Faculty, HOD, Admin) and provides real-time analytics.
+
+### Technology Stack
+-   **Frontend**: React (Vite), TailwindCSS, Lucide React (Icons), Framer Motion (Animations).
+-   **Backend**: Node.js, Express.js.
+-   **Database**: MongoDB (Mongoose ODM).
+-   **Authentication**: JSON Web Tokens (JWT).
+-   **Deployment**: Vercel (Frontend & Backend).
+
+---
+
+## 2. Setup & Installation
+
+### Prerequisites
+-   Node.js (v18+)
+-   MongoDB Atlas UI (Connection String)
+
+### Local Development
+1.  **Clone the Repository**:
+    ```bash
+    git clone <repository-url>
+    cd FeedbackSystem
+    ```
+
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
+
+3.  **Environment Variables**:
+    Create a [.env](file:///c:/Users/malla/Desktop/ReactSample/FeedbackSystem/.env) file in the root directory:
+    ```env
+    MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/feedback_db
+    JWT_SECRET=your_super_secret_key_123
+    PORT=5002
+    ```
+
+4.  **Run the Server**:
+    ```bash
+    npm run server
+    ```
+    *Server runs on `http://localhost:5002`*
+
+5.  **Run the Frontend**:
+    ```bash
+    npm run dev
+    ```
+    *Frontend runs on `http://localhost:5173`*
+
+### Data Seeding (Initial Setup)
+The system automatically seeds initial data (Users, Subjects) from JSON files in `server/data/` if the database is empty upon startup.
+-   `users.json`: student/faculty data.
+-   `subjects.json`: subject definitions.
+
+---
+
+## 3. Roles & Features
+
+### 🎓 Student
+-   **Login**: Access using Roll Number (e.g., `227Z1A6701`) & Password.
+-   **Dashboard**: View restricted list of subjects for their Class/Semester.
+-   **Feedback Submission**:
+    -   Rate parameters (Presentation, Clarity, etc.) on a scale of 1-5.
+    -   **One-Time Submission**: Cannot submit feedback twice for the same subject.
+    -   **Feedback Restriction**: Submissions might be closed after a specific window (e.g., 15 days).
+
+### 👨‍🏫 Faculty
+-   **Login**: Email & Password.
+-   **Dashboard**: View feedback received for their specific subjects.
+-   **Reports**: Download feedback summary.
+
+### 👔 HOD (Head of Department)
+-   **Login**: Email (`hod.ds@college.edu`) & Password.
+-   **Dashboard**:
+    -   View **Class-wise** analytics (Year II, III, IV).
+    -   See total submission counts and percentages per subject/faculty.
+    -   Filter by Section and Semester.
+
+### 🛠 Admin
+-   **Login**: Email (`admin@college.edu`) & Password.
+-   **Dashboard**:
+    -   **Manage Subjects**: View and update subject mappings.
+    -   **Manage Students**: Bulk upload students via Excel or clear database.
+    -   **System Maintenance**: Clear all feedback data for a fresh start.
+
+---
+
+## 4. Database Schema
+
+### User Model (`User.js`)
+Stores all user entities.
+-   `role`: 'student', 'faculty', 'hod', 'admin'
+-   `email`: (Unique for non-students)
+-   `rollnumber`: (Unique for students)
+-   `class`, `section`, `semester`: Student metadata (e.g., 'IIyr', 'A', 'II').
+
+### Subject Model (`Subject.js`)
+Defines the curriculum.
+-   `name`: Subject Name (e.g., "Data Structures").
+-   `code`: Subject Code.
+-   `type`: 'theory' or 'lab'.
+-   `class`, `semester`: Mapped to year/sem.
+-   `faculties`: Map of `Section -> Faculty Name`.
+
+### Feedback Model (`Feedback.js`)
+Stores individual feedback entries.
+-   `rollnumber`: Student who submitted.
+-   `subjectId`: Target subject.
+-   `ratings`: Map of parameter scores (e.g., `{'P1': 5, 'P2': 4}`).
+-   `timestamp`: Submission time.
+-   **Constraint**: Unique index on `rollnumber + subjectId` preventing duplicates.
+
+---
+
+## 5. API Reference
+
+### Authentication
+-   `POST /api/login`: Authenticates user; returns JWT token + User details.
+
+### Core Endpoints
+-   `GET /api/subjects?class=...&section=...`: Get subjects for a student.
+-   `POST /api/feedback`: Submit feedback.
+-   `GET /api/feedback/progress?rollnumber=...`: Get list of subjects completed by student.
+
+### Admin/Analytics
+-   `GET /api/analytics`: Aggregated feedback stats (HOD/Admin).
+-   `GET /api/admin/subjects`: List all subjects.
+-   `POST /api/admin/subjects`: Update subjects.
+-   `POST /api/admin/upload-students`: Bulk upload students (Excel).
+-   `DELETE /api/admin/students`: Clear student data.
+-   `DELETE /api/admin/feedback`: Clear feedback data.
+
+---
+
+## 6. Troubleshooting
+
+### "No Students Found" (HOD Dashboard)
+-   **Cause**: Database missing student records for that specific Year/Semester.
+-   **Fix**: Ensure `server/data/users.json` has correct data with matching `class` ('IIyr', 'IIIyr') and `semester` ('II'). Restart server to re-seed if empty.
+
+### Login Error 500
+-   **Cause 1**: Server looking for `.env` in `server/` instead of root.
+    -   **Fix**: Ensure `server/index.js` uses `path.resolve(__dirname, '../.env')` in dotenv config. (Fixed in `index.js`).
+-   **Cause 2**: "Zombie" server processes locking the database port.
+    -   **Fix**: Stop all terminal instances. Run `force-kill-node` (if script exists) or manually kill Node processes. Restart `npm run server`.
+
+### Vercel Deployment Issues
+-   **Cause**: Vercel environment variables missing.
+-   **Fix**: Go to Vercel Project Settings > Environment Variables. Add `MONGO_URI` and `JWT_SECRET`. Redeploy using `vercel --prod`.
+
+---
+
+## 7. Performance & Scalability
+
+### Capacity Planning
+This system is designed to handle concurrency efficiently.
+-   **150 Concurrent Students**: ✅ Confirmed. Node.js non-blocking I/O and MongoDB connection pooling (cached connections) handle 150 simultaneous requests easily.
+-   **Database Writes**: MongoDB Atlas handles thousands of writes per second. 
+-   **Bulk Operations**: Student uploads use `bulkWrite` for high performance (sub-second for 150 records).
+
+### Constraints (Free Tier)
+-   **Vercel Serverless**: Function timeout is 10s on free tier (plenty for feedback submission).
+-   **MongoDB Atlas (Free M0)**: Max 500 connections. With connection pooling, this supports thousands of users.

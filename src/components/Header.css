@@ -1,0 +1,106 @@
+.app-header {
+    background-color: var(--background);
+    padding: 0;
+    box-shadow: var(--shadow-lg);
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.header-logo {
+    width: 100%;
+    height: auto;
+    /* Full width banner style */
+    object-fit: contain;
+    display: block;
+    background-color: white;
+}
+
+/* Compact header for login page */
+.app-header.login-mode {
+    margin-bottom: 0.5rem;
+    box-shadow: var(--shadow-sm);
+}
+
+.app-header.login-mode .header-logo {
+    max-height: 15vh;
+    object-fit: contain;
+}
+
+.header-text {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5rem 0;
+    /* Reduced padding */
+    width: 100%;
+    background-color: var(--background);
+}
+
+.dept-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--text-main);
+    margin: 0;
+    line-height: 1.2;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.school-name {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--text-muted);
+    margin: 0;
+    margin-top: 0.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding: 0.5rem;
+    }
+
+    .header-logo {
+        height: 60px;
+    }
+
+    .dept-name {
+        font-size: 1.1rem;
+    }
+
+    .school-name {
+        font-size: 0.9rem;
+    }
+}
+
+/* Dashboard specific header adjustment */
+.dashboard-header {
+    margin-left: 280px;
+    /* Sidebar width from Dashboard.css */
+    width: calc(100% - 280px);
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .dashboard-header {
+        margin-left: 80px;
+        /* Collapsed sidebar width */
+        width: calc(100% - 80px);
+    }
+}

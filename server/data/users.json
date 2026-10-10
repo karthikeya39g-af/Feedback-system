@@ -1,0 +1,3346 @@
+[
+    {
+        "id": "1",
+        "email": "admin@college.edu",
+        "password": "admin123",
+        "role": "admin",
+        "name": "Super Admin"
+    },
+    {
+        "id": "2",
+        "email": "hod.ds@college.edu",
+        "name": "Mrs V Indrani",
+        "role": "hod",
+        "password": "hod123"
+    },
+    {
+        "id": "865",
+        "rollnumber": "237Z1A6711",
+        "name": "AREPALLY ROHAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "866",
+        "rollnumber": "247Z1A6701",
+        "name": "ABBULA VENKATESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "867",
+        "rollnumber": "247Z1A6702",
+        "name": "AJMEERA DINESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "868",
+        "rollnumber": "247Z1A6704",
+        "name": "AKOJU DEVENDRA CHARY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "869",
+        "rollnumber": "247Z1A6705",
+        "name": "AKULA AKHIL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "870",
+        "rollnumber": "247Z1A6706",
+        "name": "AMBALLA VENKATESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "871",
+        "rollnumber": "247Z1A6707",
+        "name": "AMIT REGONDA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "872",
+        "rollnumber": "247Z1A6708",
+        "name": "AMMANABOINA MADHU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "873",
+        "rollnumber": "247Z1A6709",
+        "name": "ANDE MYTHILI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "874",
+        "rollnumber": "247Z1A6710",
+        "name": "ARCHANA PAL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "875",
+        "rollnumber": "247Z1A6711",
+        "name": "ARELLI PRANAYA SRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "876",
+        "rollnumber": "247Z1A6712",
+        "name": "ATHE RISHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "877",
+        "rollnumber": "247Z1A6713",
+        "name": "BADDAM JAHNAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "878",
+        "rollnumber": "247Z1A6714",
+        "name": "BAIANA HARIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "879",
+        "rollnumber": "247Z1A6715",
+        "name": "BANAVATH BINDU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "880",
+        "rollnumber": "247Z1A6716",
+        "name": "BANDI BHANU SRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "881",
+        "rollnumber": "247Z1A6717",
+        "name": "BARAPATI VENU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "882",
+        "rollnumber": "247Z1A6718",
+        "name": "BARIGELA KAVYASRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "883",
+        "rollnumber": "247Z1A6719",
+        "name": "BARLAPATI JAHNAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "884",
+        "rollnumber": "247Z1A6720",
+        "name": "BELLAM RASHMITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "885",
+        "rollnumber": "247Z1A6721",
+        "name": "BELLAPU BHANU TEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "886",
+        "rollnumber": "247Z1A6722",
+        "name": "BHEEMAGOUNI YASHWANTH GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "887",
+        "rollnumber": "247Z1A6723",
+        "name": "BHUSHI VARSHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "888",
+        "rollnumber": "247Z1A6724",
+        "name": "BOLLABOINA MANASA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "889",
+        "rollnumber": "247Z1A6725",
+        "name": "BONTHA INDHUMATHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "890",
+        "rollnumber": "247Z1A6726",
+        "name": "BOPPANAPALLY RAGHU PRASAD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "891",
+        "rollnumber": "247Z1A6727",
+        "name": "BYAGARI YESHWANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "892",
+        "rollnumber": "247Z1A6728",
+        "name": "CHETTI VINAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "893",
+        "rollnumber": "247Z1A6729",
+        "name": "CHEVULA RAHUL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "894",
+        "rollnumber": "247Z1A6730",
+        "name": "CHINTHA BHARATH KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "895",
+        "rollnumber": "247Z1A6731",
+        "name": "DANDU JYOTHSNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "896",
+        "rollnumber": "247Z1A6732",
+        "name": "DEBBADI MANOJ",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "897",
+        "rollnumber": "247Z1A6733",
+        "name": "DEEKSHITH PILLI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "898",
+        "rollnumber": "247Z1A6734",
+        "name": "DHARPALLY RISHIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "899",
+        "rollnumber": "247Z1A6735",
+        "name": "DHUDIMADUGULA ABHISHEK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "900",
+        "rollnumber": "247Z1A6736",
+        "name": "ERRA SPURTHI PRIYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "901",
+        "rollnumber": "247Z1A6737",
+        "name": "ETTABOINA SAI CHARAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "902",
+        "rollnumber": "247Z1A6738",
+        "name": "GADDAM UDAY JEEVAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "903",
+        "rollnumber": "247Z1A6739",
+        "name": "GANGALA PRASHANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "904",
+        "rollnumber": "247Z1A6740",
+        "name": "GARIKA DINESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "905",
+        "rollnumber": "247Z1A6741",
+        "name": "GOTTAMUKULA RISHIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "906",
+        "rollnumber": "247Z1A6742",
+        "name": "GUDIPATI ROHIT",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "907",
+        "rollnumber": "247Z1A6743",
+        "name": "GUGULOTH SAI KRISHNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "908",
+        "rollnumber": "247Z1A6744",
+        "name": "GUGULOTH VAISHNAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "909",
+        "rollnumber": "247Z1A6745",
+        "name": "GUGULOTHU HARITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "910",
+        "rollnumber": "247Z1A6746",
+        "name": "GULBAM AKASH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "911",
+        "rollnumber": "247Z1A6747",
+        "name": "GURRAM DHARANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "912",
+        "rollnumber": "247Z1A6748",
+        "name": "IRIGELA MALLIKARJUNA REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "913",
+        "rollnumber": "247Z1A6749",
+        "name": "J GRISHMANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "914",
+        "rollnumber": "247Z1A6750",
+        "name": "J N MANI DEEKSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "915",
+        "rollnumber": "247Z1A6751",
+        "name": "JATOTHU RAM CHARAN NAYAK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "916",
+        "rollnumber": "247Z1A6752",
+        "name": "KALLEPU MANJUNATH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "917",
+        "rollnumber": "247Z1A6753",
+        "name": "KAMATI VISHNU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "918",
+        "rollnumber": "247Z1A6754",
+        "name": "KAMMILI NAGA HARSHINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "919",
+        "rollnumber": "247Z1A6755",
+        "name": "KANAMARLAPUDI ESWAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "920",
+        "rollnumber": "247Z1A6756",
+        "name": "KARRE SATHVIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "921",
+        "rollnumber": "247Z1A6757",
+        "name": "KATABOINA KAVYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "922",
+        "rollnumber": "247Z1A6758",
+        "name": "KILARI KINNERA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "923",
+        "rollnumber": "247Z1A6759",
+        "name": "KOLICHELMA JYOSHNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "924",
+        "rollnumber": "247Z1A6760",
+        "name": "KOMIRISHETTY LEELADITHYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "925",
+        "rollnumber": "247Z1A6761",
+        "name": "KONDAPAKA SRIRAM",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "926",
+        "rollnumber": "247Z1A6762",
+        "name": "KONKARA KAVYA SUDHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "927",
+        "rollnumber": "247Z1A6763",
+        "name": "KORAPIDATHA PRAVEEN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "928",
+        "rollnumber": "247Z1A6764",
+        "name": "KOWDE ABHINAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "929",
+        "rollnumber": "247Z1A6765",
+        "name": "KUMBHAJI SRINATH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "930",
+        "rollnumber": "247Z1A6767",
+        "name": "MADAKA SAHITHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "931",
+        "rollnumber": "247Z1A6768",
+        "name": "MADASI SANJANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "932",
+        "rollnumber": "247Z1A6769",
+        "name": "MAMINDLA SREESHANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "933",
+        "rollnumber": "247Z1A6770",
+        "name": "MANCHA SATHWIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "934",
+        "rollnumber": "247Z1A6772",
+        "name": "MANGALAPALLY HARSHAVARDAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "935",
+        "rollnumber": "247Z1A6773",
+        "name": "MANNEM DEVISRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "936",
+        "rollnumber": "247Z1A6774",
+        "name": "MARUPAKA HARI PRIYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "937",
+        "rollnumber": "247Z1A6775",
+        "name": "MEDISHETTI SANJANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "938",
+        "rollnumber": "247Z1A6776",
+        "name": "MINUPA SAI KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "939",
+        "rollnumber": "247Z1A6777",
+        "name": "MOHAMMED ADNAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "940",
+        "rollnumber": "247Z1A6778",
+        "name": "MOHAMMED ELIYAZ",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "941",
+        "rollnumber": "247Z1A6779",
+        "name": "MOHAMMED ZAHEER KHAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "942",
+        "rollnumber": "247Z1A6781",
+        "name": "MOTAMARRI CHARITHA SREE",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "943",
+        "rollnumber": "247Z1A6782",
+        "name": "MOTHE ASHWINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "944",
+        "rollnumber": "247Z1A6783",
+        "name": "MULUGU MANOHAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "945",
+        "rollnumber": "247Z1A6784",
+        "name": "MUSTABADA NASSA SHIVA KOUSHIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "946",
+        "rollnumber": "247Z1A6785",
+        "name": "NAGAPURI KARTHIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "947",
+        "rollnumber": "247Z1A6786",
+        "name": "NAKKA BUNNY GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "948",
+        "rollnumber": "247Z1A6788",
+        "name": "OJJA NIKITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "949",
+        "rollnumber": "247Z1A6789",
+        "name": "PAGADALA SREEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "950",
+        "rollnumber": "247Z1A6790",
+        "name": "PALEPU VIHAAN REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "951",
+        "rollnumber": "247Z1A6791",
+        "name": "PALLAM UJWAL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "952",
+        "rollnumber": "247Z1A6792",
+        "name": "PAMPARI SRIJANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "953",
+        "rollnumber": "247Z1A6793",
+        "name": "PANDIRI ASHVITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "954",
+        "rollnumber": "247Z1A6794",
+        "name": "PARANDHA MOKSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "955",
+        "rollnumber": "247Z1A6795",
+        "name": "PEDDI THARUN TEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "956",
+        "rollnumber": "247Z1A6796",
+        "name": "PENDURTI PRABHU KIRAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "957",
+        "rollnumber": "247Z1A6797",
+        "name": "PENTA NITHISH KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "958",
+        "rollnumber": "247Z1A6798",
+        "name": "PRABHATH KUMAR SHARMA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "959",
+        "rollnumber": "247Z1A6799",
+        "name": "PUTTA TEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "960",
+        "rollnumber": "247Z1A67A0",
+        "name": "REDDY ROHITH CHAITANYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "961",
+        "rollnumber": "247Z1A67A1",
+        "name": "SAJJANSHETTY VISHAL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "962",
+        "rollnumber": "247Z1A67A2",
+        "name": "SANEM MOHAN SUBRAMANYAM",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "963",
+        "rollnumber": "247Z1A67A3",
+        "name": "SANGANI AJAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "964",
+        "rollnumber": "247Z1A67A4",
+        "name": "SATTI SHIVA SAINATH REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "965",
+        "rollnumber": "247Z1A67A5",
+        "name": "SEELAM NAVANEETH REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "966",
+        "rollnumber": "247Z1A67A6",
+        "name": "SEERAM RISHI KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "967",
+        "rollnumber": "247Z1A67A7",
+        "name": "SHAIK ANWAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "968",
+        "rollnumber": "247Z1A67A8",
+        "name": "SHAIK AYESHA BANU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "969",
+        "rollnumber": "247Z1A67A9",
+        "name": "SHAMA VAISHNAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "970",
+        "rollnumber": "247Z1A67B0",
+        "name": "SHIVARATH AKHIL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "971",
+        "rollnumber": "247Z1A67B1",
+        "name": "SINGAVARAPU SARAH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "972",
+        "rollnumber": "247Z1A67B2",
+        "name": "SUNKOJI ANUROOP",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "973",
+        "rollnumber": "247Z1A67B3",
+        "name": "SURAJ YADAV",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "974",
+        "rollnumber": "247Z1A67B4",
+        "name": "TALAPALLY RISHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "975",
+        "rollnumber": "247Z1A67B5",
+        "name": "TALARI SHIVA PAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "976",
+        "rollnumber": "247Z1A67B6",
+        "name": "TALARI SHIVA SAI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "977",
+        "rollnumber": "247Z1A67B7",
+        "name": "TANDA SHIVA KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "978",
+        "rollnumber": "247Z1A67B8",
+        "name": "THIMMAIAHGARI NIKHIL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "979",
+        "rollnumber": "247Z1A67B9",
+        "name": "TOOMUGANTI ASMITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "980",
+        "rollnumber": "247Z1A67C0",
+        "name": "TULE ANJALI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "981",
+        "rollnumber": "247Z1A67C1",
+        "name": "TUNUGUNTLA CHANDINIRASANNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "982",
+        "rollnumber": "247Z1A67C2",
+        "name": "VALLAPU SHIVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "983",
+        "rollnumber": "247Z1A67C3",
+        "name": "VALLEPU VISHNU MURTHY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "984",
+        "rollnumber": "247Z1A67C4",
+        "name": "VANAVASAM MANISHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "985",
+        "rollnumber": "247Z1A67C5",
+        "name": "VARSHITH REDDY CHALLA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "986",
+        "rollnumber": "247Z1A67C6",
+        "name": "VOJALA SUSHEEL  ",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "987",
+        "rollnumber": "247Z1A67C7",
+        "name": "VYVULA MADHURI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "988",
+        "rollnumber": "247Z1A67C8",
+        "name": "YELLAKONDA SHIVA SHANKAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "989",
+        "rollnumber": "257Z5A6701",
+        "name": "BANDARI DHANRAJ",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "990",
+        "rollnumber": "257Z5A6702",
+        "name": "BAIPATI SRIVALLIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "991",
+        "rollnumber": "257Z5A6703",
+        "name": "BODDU ARUN KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "992",
+        "rollnumber": "257Z5A6704",
+        "name": "GONGUPALLI AJAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "993",
+        "rollnumber": "257Z5A6705",
+        "name": "KATKAM HARSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "994",
+        "rollnumber": "257Z5A6706",
+        "name": "KRISHNAJIGARI RAHUL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "995",
+        "rollnumber": "257Z5A6707",
+        "name": "RAMAYAMPET SAI VIDHYA CHARAN GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "996",
+        "rollnumber": "257Z5A6708",
+        "name": "THEMBRAVENI ARCHANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "997",
+        "rollnumber": "257Z5A6709",
+        "name": "THUNIKI THARUN GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "998",
+        "rollnumber": "257Z5A6710",
+        "name": "UPPU PRAJWAL SAI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "999",
+        "rollnumber": "257Z5A6711",
+        "name": "VANKDOTH GOWTHAM",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1000",
+        "rollnumber": "257Z5A6712",
+        "name": "SHEHAKASHI SANDHYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1136",
+        "rollnumber": "227Z1A6701",
+        "name": "ADARI TEJASWIN",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1136a",
+        "rollnumber": "227Z1A6702",
+        "name": "ALAGONI SATHWIK GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1137",
+        "rollnumber": "227Z1A6703",
+        "name": "ALOOR HEMALATHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1138",
+        "rollnumber": "227Z1A6704",
+        "name": "AMRABAD VINYASRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1139",
+        "rollnumber": "227Z1A6705",
+        "name": "AMUDALA JAYA SREE",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1140",
+        "rollnumber": "227Z1A6706",
+        "name": "ANGULURI SRI CHANDANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1141",
+        "rollnumber": "227Z1A6707",
+        "name": "BAGGANI VISHWA TEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1142",
+        "rollnumber": "227Z1A6708",
+        "name": "BASUDE CHANDANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1143",
+        "rollnumber": "227Z1A6710",
+        "name": "BUSHIGAMPA SUJITH GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1144",
+        "rollnumber": "227Z1A6711",
+        "name": "C VARUNI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1145",
+        "rollnumber": "227Z1A6713",
+        "name": "CHENNABOINA SHIVA KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1146",
+        "rollnumber": "227Z1A6714",
+        "name": "CHINDAM SAI RUKVITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1147",
+        "rollnumber": "227Z1A6715",
+        "name": "CHINNAM BHARGAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1148",
+        "rollnumber": "227Z1A6716",
+        "name": "CHIRIVELLA SANDEEP",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1149",
+        "rollnumber": "227Z1A6717",
+        "name": "DUDDELA DINESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1150",
+        "rollnumber": "227Z1A6718",
+        "name": "ENAGANDULA RAVALI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1151",
+        "rollnumber": "227Z1A6719",
+        "name": "GAJULA NAVASRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1152",
+        "rollnumber": "227Z1A6720",
+        "name": "GARGE SOWMYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1153",
+        "rollnumber": "227Z1A6721",
+        "name": "GOPU RUSHMITHA REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1154",
+        "rollnumber": "227Z1A6722",
+        "name": "GUDA VARSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1155",
+        "rollnumber": "227Z1A6723",
+        "name": "GUNREDDY SPANDANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1156",
+        "rollnumber": "227Z1A6724",
+        "name": "INDUPURU SAI SIVA KUMAR REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1157",
+        "rollnumber": "227Z1A6725",
+        "name": "JAGATHKARI UDAY KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1158",
+        "rollnumber": "227Z1A6726",
+        "name": "JOGU YAKESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1159",
+        "rollnumber": "227Z1A6727",
+        "name": "JORRIGALA SHIVA NANDINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1160",
+        "rollnumber": "227Z1A6729",
+        "name": "HEMA NAGA SWATHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1161",
+        "rollnumber": "227Z1A6730",
+        "name": "INDUKURI SANTHOSH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1162",
+        "rollnumber": "227Z1A6731",
+        "name": "IRUKULLA SRAVYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1163",
+        "rollnumber": "227Z1A6732",
+        "name": "JAKKULA NAVYA SAI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1164",
+        "rollnumber": "227Z1A6733",
+        "name": "JATLA SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1165",
+        "rollnumber": "227Z1A6734",
+        "name": "KANCHERLA SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1166",
+        "rollnumber": "227Z1A6735",
+        "name": "KANDI RAJU PRIYA DARSHINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1167",
+        "rollnumber": "227Z1A6736",
+        "name": "KARNE SATHWIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1168",
+        "rollnumber": "227Z1A6737",
+        "name": "KISTALA VARDHAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1169",
+        "rollnumber": "227Z1A6738",
+        "name": "KISTAMPALLY SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1170",
+        "rollnumber": "227Z1A6740",
+        "name": "KOMAWAR TEJASWINI NAIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1171",
+        "rollnumber": "227Z1A6741",
+        "name": "KONDETI VYSHNAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1172",
+        "rollnumber": "227Z1A6742",
+        "name": "KOTA SRAVANTHI REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1173",
+        "rollnumber": "227Z1A6743",
+        "name": "KUNDELLI ROHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1174",
+        "rollnumber": "227Z1A6745",
+        "name": "MADASU SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1175",
+        "rollnumber": "227Z1A6746",
+        "name": "MARRI JYOTHIKA RISHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1176",
+        "rollnumber": "227Z1A6747",
+        "name": "METI VISHAL REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1177",
+        "rollnumber": "227Z1A6748",
+        "name": "MOPURU AKHIL",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1178",
+        "rollnumber": "227Z1A6749",
+        "name": "MUDDI NAGA SATHVIK REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1179",
+        "rollnumber": "227Z1A6750",
+        "name": "NAGARAM SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1180",
+        "rollnumber": "227Z1A6751",
+        "name": "NUTHETI MADHUSUDAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1181",
+        "rollnumber": "227Z1A6752",
+        "name": "NEETI YASASWINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1182",
+        "rollnumber": "227Z1A6753",
+        "name": "NIMMAKAYALA NAVEEN KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1183",
+        "rollnumber": "227Z1A6754",
+        "name": "NUNE SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1184",
+        "rollnumber": "227Z1A6757",
+        "name": "PUJALA KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1185",
+        "rollnumber": "227Z1A6758",
+        "name": "PUJARI SHRUTHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1186",
+        "rollnumber": "227Z1A6759",
+        "name": "RAMAVATH MANISH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1187",
+        "rollnumber": "227Z1A6760",
+        "name": "REDDY SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1188",
+        "rollnumber": "227Z1A6761",
+        "name": "VEERAGONI HARSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1189",
+        "rollnumber": "227Z1A6762",
+        "name": "VEMULA SATHWIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1190",
+        "rollnumber": "227Z1A6763",
+        "name": "YAMANI ROHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1191",
+        "rollnumber": "237Z5A6701",
+        "name": "AILA SIVA CHANDRA CHARY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1192",
+        "rollnumber": "237Z5A6702",
+        "name": "AILA SIVA CHANDRA CHARY",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1193",
+        "rollnumber": "237Z5A6703",
+        "name": "GURRAM GAFFU",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1194",
+        "rollnumber": "237Z5A6704",
+        "name": "KOTHURI SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1195",
+        "rollnumber": "237Z5A6705",
+        "name": "NAKKA SRAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1196",
+        "rollnumber": "237Z5A6706",
+        "name": "THAKOTOJI SAI KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IVyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1197",
+        "rollnumber": "237Z1A6701",
+        "name": "ABHISHEK KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1198",
+        "rollnumber": "237Z1A6702",
+        "name": "ADAPA BHANU PAVITHRA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1199",
+        "rollnumber": "237Z1A6703",
+        "name": "ALITE SHIVA KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1200",
+        "rollnumber": "237Z1A6704",
+        "name": "ALLI SANJAY VARDHAN REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1201",
+        "rollnumber": "237Z1A6705",
+        "name": "AMARACHINTA SANDHYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1202",
+        "rollnumber": "237Z1A6706",
+        "name": "ANKUSH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1203",
+        "rollnumber": "237Z1A6707",
+        "name": "ANNALDAS VIVEK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1204",
+        "rollnumber": "237Z1A6708",
+        "name": "APPIDI ASHOK REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1205",
+        "rollnumber": "237Z1A6709",
+        "name": "ARAGONDA KARTHIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1206",
+        "rollnumber": "237Z1A6710",
+        "name": "ARE HARSHITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1207",
+        "rollnumber": "237Z1A6712",
+        "name": "ARUKALI ASHOK KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1208",
+        "rollnumber": "237Z1A6713",
+        "name": "AVULA PRANATHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1209",
+        "rollnumber": "237Z1A6714",
+        "name": "BALIVADA SAI KIRAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1210",
+        "rollnumber": "237Z1A6715",
+        "name": "BANDELA BHARGAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1211",
+        "rollnumber": "237Z1A6716",
+        "name": "BEGARI POOJITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1212",
+        "rollnumber": "237Z1A6717",
+        "name": "BILLA SHASHANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1213",
+        "rollnumber": "237Z1A6718",
+        "name": "BISSA GOPI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1214",
+        "rollnumber": "237Z1A6719",
+        "name": "BODE MYTHRI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1215",
+        "rollnumber": "237Z1A6720",
+        "name": "BOINI AKASH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1216",
+        "rollnumber": "237Z1A6721",
+        "name": "BOLISHETTI PAVAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1217",
+        "rollnumber": "237Z1A6722",
+        "name": "BOMMAGOUNI ANSHU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1218",
+        "rollnumber": "237Z1A6723",
+        "name": "BUTTI VIKRANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1219",
+        "rollnumber": "237Z1A6724",
+        "name": "C VIJAYENDRA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1220",
+        "rollnumber": "237Z1A6725",
+        "name": "CHAGANTI MANEESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1221",
+        "rollnumber": "237Z1A6726",
+        "name": "CHALLA ANVESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1222",
+        "rollnumber": "237Z1A6727",
+        "name": "CHAPPALA RAJESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1223",
+        "rollnumber": "237Z1A6728",
+        "name": "CHEPURI ADHIRAM",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1224",
+        "rollnumber": "237Z1A6729",
+        "name": "CHETLA AKSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1225",
+        "rollnumber": "237Z1A6730",
+        "name": "CHINTAKINDI MOUNIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1226",
+        "rollnumber": "237Z1A6731",
+        "name": "DAGGULA SRIVASTHAV",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1227",
+        "rollnumber": "237Z1A6732",
+        "name": "DANAM HARI KEERTHANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1228",
+        "rollnumber": "237Z1A6733",
+        "name": "DEVARSHETTY SAIVINITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1229",
+        "rollnumber": "237Z1A6734",
+        "name": "DIVYA DASARI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1230",
+        "rollnumber": "237Z1A6735",
+        "name": "EDARA PRATHEEK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1231",
+        "rollnumber": "237Z1A6736",
+        "name": "ENGILI SAI TEJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1232",
+        "rollnumber": "237Z1A6737",
+        "name": "ETIKALA AKASH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1233",
+        "rollnumber": "237Z1A6738",
+        "name": "GAJULA PREETHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1234",
+        "rollnumber": "237Z1A6739",
+        "name": "GANDHAMOJU VIKAS CHARY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1235",
+        "rollnumber": "237Z1A6740",
+        "name": "GARIMIDI PRATHAP",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1236",
+        "rollnumber": "237Z1A6741",
+        "name": "GARREPALLY LAXMI PRASANNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1237",
+        "rollnumber": "237Z1A6742",
+        "name": "GOURAVELLY MAHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1238",
+        "rollnumber": "237Z1A6743",
+        "name": "GOURINENI ANUSHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1239",
+        "rollnumber": "237Z1A6744",
+        "name": "GUDA ABHIJITH REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1240",
+        "rollnumber": "237Z1A6745",
+        "name": "GUNDA SOUMYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1241",
+        "rollnumber": "237Z1A6746",
+        "name": "GUNDAGANI HARIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1242",
+        "rollnumber": "237Z1A6747",
+        "name": "GUNDE THARUNI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1243",
+        "rollnumber": "237Z1A6748",
+        "name": "GURRAM SIDDHARTHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1244",
+        "rollnumber": "237Z1A6749",
+        "name": "JAGARAPU HARIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1245",
+        "rollnumber": "237Z1A6750",
+        "name": "JAKKULA NAVEENKUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1246",
+        "rollnumber": "237Z1A6751",
+        "name": "JATOTH NAGESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1247",
+        "rollnumber": "237Z1A6752",
+        "name": "JULURI SARVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1248",
+        "rollnumber": "237Z1A6753",
+        "name": "JUTTU VARSHITA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1249",
+        "rollnumber": "237Z1A6754",
+        "name": "K PRIYANKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1250",
+        "rollnumber": "237Z1A6756",
+        "name": "KANKARAIAH BIMAPPA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1251",
+        "rollnumber": "237Z1A6757",
+        "name": "KANUGANTI RUSHIKESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1252",
+        "rollnumber": "237Z1A6758",
+        "name": "KALVALA PREETHI REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1253",
+        "rollnumber": "237Z1A6759",
+        "name": "KOLIPAKA RADHIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1254",
+        "rollnumber": "237Z1A6760",
+        "name": "KOLUPULA DEEKSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1255",
+        "rollnumber": "237Z1A6761",
+        "name": "KONTHAM DINESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1256",
+        "rollnumber": "237Z1A6762",
+        "name": "KUKUTAPU SAI RAM",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1257",
+        "rollnumber": "237Z1A6763",
+        "name": "LANGARI SATWIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1258",
+        "rollnumber": "237Z1A6764",
+        "name": "LINGALA SAHITHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1259",
+        "rollnumber": "237Z1A6765",
+        "name": "LINGAMPELLY DHATHRIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1260",
+        "rollnumber": "237Z1A6766",
+        "name": "MADASU HITHAISHI VARDAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1261",
+        "rollnumber": "237Z1A6767",
+        "name": "MARAM ROHITH REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1262",
+        "rollnumber": "237Z1A6768",
+        "name": "MEDABOYINA SHIVA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1263",
+        "rollnumber": "237Z1A6769",
+        "name": "MIRIYANAM KRUTHIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "A",
+        "semester": "II"
+    },
+    {
+        "id": "1264",
+        "rollnumber": "237Z1A6770",
+        "name": "MOGILLA VAMSHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1265",
+        "rollnumber": "237Z1A6771",
+        "name": "MOHAMMAD AZHAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1266",
+        "rollnumber": "237Z1A6772",
+        "name": "MOHAMMED SIRAJ",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1267",
+        "rollnumber": "237Z1A6773",
+        "name": "MOLUGU MANIROOP",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1268",
+        "rollnumber": "237Z1A6774",
+        "name": "MUCCHU KAVITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1269",
+        "rollnumber": "237Z1A6775",
+        "name": "MUCHAPOTHULA HEMANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1270",
+        "rollnumber": "237Z1A6776",
+        "name": "NAGAM ABHINAV",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1271",
+        "rollnumber": "237Z1A6777",
+        "name": "NAINI SUSHMA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1272",
+        "rollnumber": "237Z1A6778",
+        "name": "NARAPAKA SAI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1273",
+        "rollnumber": "237Z1A6779",
+        "name": "NIMMALA SRIKAR REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1274",
+        "rollnumber": "237Z1A6780",
+        "name": "NUKALA LAXMI NARSIMHA REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1275",
+        "rollnumber": "237Z1A6781",
+        "name": "ODETI MANASWI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1276",
+        "rollnumber": "237Z1A6782",
+        "name": "PARRE SUMANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1277",
+        "rollnumber": "237Z1A6783",
+        "name": "PASUPUNURU JEEVAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1278",
+        "rollnumber": "237Z1A6785",
+        "name": "PEDIREDLA AKHUL SRI SAI NANDAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1279",
+        "rollnumber": "237Z1A6786",
+        "name": "PENCHIKALA MANUSREE",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1280",
+        "rollnumber": "237Z1A6787",
+        "name": "PENDYALA SINDHUJA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1281",
+        "rollnumber": "237Z1A6788",
+        "name": "PINGALA SRI VARSHINI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1282",
+        "rollnumber": "237Z1A6789",
+        "name": "PULIGILLA VINAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1283",
+        "rollnumber": "237Z1A6790",
+        "name": "PUTTA MEENA MYTHILI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1284",
+        "rollnumber": "237Z1A6791",
+        "name": "R NEHARIKA REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1285",
+        "rollnumber": "237Z1A6792",
+        "name": "RAAVI VANI SRI DEVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1286",
+        "rollnumber": "237Z1A6793",
+        "name": "RAGANNAGARI DEEPIKA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1287",
+        "rollnumber": "237Z1A6794",
+        "name": "RAMADUGU SRIHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1288",
+        "rollnumber": "237Z1A6795",
+        "name": "RATHOD KARTHIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1289",
+        "rollnumber": "237Z1A6796",
+        "name": "REPALLE SAI AMAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1290",
+        "rollnumber": "237Z1A6798",
+        "name": "SAI SATVIK MANDALAPU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1291",
+        "rollnumber": "237Z1A6799",
+        "name": "SAMMETA SAHITHI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1292",
+        "rollnumber": "237Z1A67A0",
+        "name": "SANDIREDDY SATHWIK REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1293",
+        "rollnumber": "237Z1A67A1",
+        "name": "SARA BHANU PRASAD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1294",
+        "rollnumber": "237Z1A67A2",
+        "name": "SHAIK ABDUL SAMEER",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1295",
+        "rollnumber": "237Z1A67A3",
+        "name": "SHAIK FAZIL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1296",
+        "rollnumber": "237Z1A67A4",
+        "name": "SHAIK RESHMA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1297",
+        "rollnumber": "237Z1A67A5",
+        "name": "SHANIGARAM VEENA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1298",
+        "rollnumber": "237Z1A67A6",
+        "name": "SINDHE ANJANI DIXITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1299",
+        "rollnumber": "237Z1A67A7",
+        "name": "SINGIREDDY ARAVIND",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1300",
+        "rollnumber": "237Z1A67A8",
+        "name": "SURVI PRANAVI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1301",
+        "rollnumber": "237Z1A67B0",
+        "name": "TANNEERU JATHIN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1302",
+        "rollnumber": "237Z1A67B1",
+        "name": "THADURI VINAY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1303",
+        "rollnumber": "237Z1A67B2",
+        "name": "THAKKURI SHIVA KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1304",
+        "rollnumber": "237Z1A67B3",
+        "name": "THATIKAYALA VENKATESH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1305",
+        "rollnumber": "237Z1A67B4",
+        "name": "UDAYAGIRI BHANU ASHMITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1306",
+        "rollnumber": "237Z1A67B5",
+        "name": "URUMADLA RESHMITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1307",
+        "rollnumber": "237Z1A67B6",
+        "name": "VEERAMALLU KARTHIKEYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1308",
+        "rollnumber": "237Z1A67B7",
+        "name": "VELPULA SHIVA KRISHNA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1309",
+        "rollnumber": "237Z1A67B8",
+        "name": "VEMULA LOUKITH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1310",
+        "rollnumber": "237Z1A67B9",
+        "name": "VENNU VARUN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1311",
+        "rollnumber": "237Z1A67C0",
+        "name": "VONTELA ARCHANA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1312",
+        "rollnumber": "237Z1A67C1",
+        "name": "VUDUTHALA VYSHNAVI GOUD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1313",
+        "rollnumber": "237Z1A67C2",
+        "name": "VUJJINI RAMYA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1314",
+        "rollnumber": "237Z1A67C3",
+        "name": "VULUPALA AJAY KUMAR REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1315",
+        "rollnumber": "237Z1A67C4",
+        "name": "YALABAKA HARSHA VARDHAN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1316",
+        "rollnumber": "237Z1A67C5",
+        "name": "YERABELLY SHAMITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1317",
+        "rollnumber": "237Z1A67C6",
+        "name": "YERRAJANNA ACHUTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1318",
+        "rollnumber": "237Z1A67C7",
+        "name": "SEELAM HARSHITHA REDDY",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1319",
+        "rollnumber": "237Z1A67C8",
+        "name": "BELLALA ESHWAR PRASAD",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1320",
+        "rollnumber": "237Z1A67C9",
+        "name": "KARNATI THANVIK KUMAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1321",
+        "rollnumber": "247Z5A6701",
+        "name": "ALGOI SAI SANGAMESHWAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1322",
+        "rollnumber": "247Z5A6702",
+        "name": "GANGADHARI HARSHITHA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1323",
+        "rollnumber": "247Z5A6703",
+        "name": "GOROJU SAI NITHIN",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1324",
+        "rollnumber": "247Z5A6704",
+        "name": "KOTHAPETA DINAKAR",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1325",
+        "rollnumber": "247Z5A6705",
+        "name": "PADEPU PAVANI",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1326",
+        "rollnumber": "247Z5A6706",
+        "name": "PARVATHAGIRI SRISHANTH",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1327",
+        "rollnumber": "247Z5A6707",
+        "name": "RACHAMALLA SATHWIK",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1328",
+        "rollnumber": "247Z5A6708",
+        "name": "RAVULA MADHU",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1329",
+        "rollnumber": "247Z5A6709",
+        "name": "SEPURI RAHUL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1330",
+        "rollnumber": "247Z5A6710",
+        "name": "SHIVA PATEL",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    },
+    {
+        "id": "1331",
+        "rollnumber": "247Z5A6711",
+        "name": "UMMEDA PHANEENDRA",
+        "role": "student",
+        "password": "password123",
+        "class": "IIIyr",
+        "section": "B",
+        "semester": "II"
+    }
+]

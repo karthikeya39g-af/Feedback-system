@@ -1,0 +1,266 @@
+[
+    {
+        "id": "dm1",
+        "name": "Discrete Mathematics",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs Lakshmi",
+            "B": "Mrs Lakshmi"
+        }
+    },
+    {
+        "id": "bef1",
+        "name": "Business Economics & Financial",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr K Venkat raju",
+            "B": "Mr K Venkat raju"
+        }
+    },
+    {
+        "id": "os1",
+        "name": "Operating Systems",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs.B Rajani",
+            "B": "Mrs.B Rajani"
+        }
+    },
+    {
+        "id": "dbms1",
+        "name": "Database Management Systems",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs T Spoorthi reddy",
+            "B": "Mrs Priyanka Pandarinath"
+        }
+    },
+    {
+        "id": "se1",
+        "name": "Software Engineering",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs M Pooja",
+            "B": "Mrs M Pooja"
+        }
+    },
+    {
+        "id": "osl1",
+        "name": "Operating Systems Lab",
+        "type": "lab",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs.B Rajani",
+            "B": "Mrs.B Rajani"
+        }
+    },
+    {
+        "id": "dbmsl1",
+        "name": "Database Management Systems Lab",
+        "type": "lab",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs T Spoorthi reddy",
+            "B": "Mrs Priyanka Pandarinath"
+        }
+    },
+    {
+        "id": "rtrp1",
+        "name": "Real-time Research Project",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr D Kishore kumar",
+            "B": "Mr D Kishore kumar"
+        }
+    },
+    {
+        "id": "coi1",
+        "name": "Constitution of India",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs Lakshmi",
+            "B": "Mrs Lakshmi"
+        }
+    },
+    {
+        "id": "sdc1",
+        "name": "Skill Development Course -Node JS",
+        "type": "theory",
+        "class": "IIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr D Kishore kumar",
+            "B": "Mr D Kishore kumar"
+        }
+    },
+    {
+        "id": "atcd1",
+        "name": "Automata Theory and Compiler Design",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr N Ravi Shankar",
+            "B": "Mr N Ravi Shankar"
+        }
+    },
+    {
+        "id": "ada1",
+        "name": "Algorithm Design and Analysis",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs K Nandhini",
+            "B": "Mrs K Nandhini"
+        }
+    },
+    {
+        "id": "bda1",
+        "name": "Big Data Analytics",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr P Srinivas",
+            "B": "Mr P Srinivas"
+        }
+    },
+    {
+        "id": "sl1",
+        "name": "Scripting Languages",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Miss N Sujana",
+            "B": "Mrs G SriRamya"
+        }
+    },
+    {
+        "id": "oop1",
+        "name": "Object Oriented Programming using C++",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs V Indrani",
+            "B": "Mrs V Indrani"
+        }
+    },
+    {
+        "id": "bdal1",
+        "name": "Big Data Analytics Lab",
+        "type": "lab",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr P Srinivas",
+            "B": "Mr P Srinivas"
+        }
+    },
+    {
+        "id": "sll1",
+        "name": "Scripting Languages Lab",
+        "type": "lab",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Miss N Sujana",
+            "B": "Mrs G SriRamya"
+        }
+    },
+    {
+        "id": "aecs1",
+        "name": "Advanced English Communication Skills",
+        "type": "lab",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs Anuradha",
+            "B": "Mrs Anuradha"
+        }
+    },
+    {
+        "id": "es1",
+        "name": "Environmental Science",
+        "type": "theory",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs P Kamala",
+            "B": "Mrs P Kamala"
+        }
+    },
+    {
+        "id": "imp1",
+        "name": "Industrial Oriented Mini Project",
+        "type": "lab",
+        "class": "IIIyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs K Nandhini",
+            "B": "Mrs K Nandhini"
+        }
+    },
+    {
+        "id": "ob1",
+        "name": "Organizational Behaviour",
+        "type": "theory",
+        "class": "IVyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mrs Padmaja",
+            "B": "Mrs Padmaja"
+        }
+    },
+    {
+        "id": "ws1",
+        "name": "Web Security",
+        "type": "theory",
+        "class": "IVyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr R Manoj Kumar",
+            "B": "Mr R Manoj Kumar"
+        }
+    },
+    {
+        "id": "cb1",
+        "name": "Chatbots",
+        "type": "theory",
+        "class": "IVyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr Vinay Sagar",
+            "B": "Mr Vinay Sagar"
+        }
+    },
+    {
+        "id": "ps2",
+        "name": "Project Stage-II Including Seminar",
+        "type": "lab",
+        "class": "IVyr",
+        "semester": "II",
+        "faculties": {
+            "A": "Mr Vinay Sagar",
+            "B": "Mr Vinay Sagar"
+        }
+    }
+]
